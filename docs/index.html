@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./assets/img/icon.svg" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Signalis Morse Code Practice</title>
+    <meta name="description" content="Signalisのモールス信号を練習するためのサイトです。" />
+
+    <!-- facebookのOGP -->
+    <meta property="og:url" content="【ページのURL】 /" />
+    <meta property="og:title" content="【ページのタイトル】" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="【ページの説明】" />
+    <meta property="og:image" content="【サムネイル画像のURL】" />
+    <meta property="og:site_name" content="【サイトのタイトル】" />
+    <meta property="fb:app_id" content="【appID】" />
+    <meta property="og:locale" content="ja_JP" />
+
+    <!-- TwitterのOGP -->
+    <meta name="twitter:card" content="【カードの種類】" />
+    <meta name="twitter:site" content="【@ユーザー名】" />
+    <meta name="twitter:description" content="【ページの説明】" />
+    <meta name="twitter:image:src" content="【サムネイル画像のURL】" />
+
+    <!-- クローラーを制御する場合 -->
+    <meta name="robots" content="index,follow" />
+    <script type="module" crossorigin src="./assets/index-6e37bd30.js"></script>
+    <link rel="stylesheet" href="./assets/index-8aef2097.css">
+  </head>
+  <body class="max-w-sm my-0 mx-auto">
+    <section class="py-8 px-4 text-center">
+      <h1 class="pb-1 mb-4 text-2xl border-b-2 border-black">Signalis Morse Code Practice</h1>
+      <div class="flex justify-around mb-4">
+        <h2 class="text-xl text-left">Question</h2>
+        <div id="js-quiz"></div>
+      </div>
+      <div class="border rounded-lg p-4 mb-8">
+        <p id="js-accordion" class="py-2 cursor-pointer">Tips</p>
+        <div id="js-accordion-contents" class="h-0 overflow-hidden transition-all">
+          <div id="js-quiz-tips"></div>
+        </div>
+      </div>
+      <form id="js-form" action="" onsubmit="return false;" class="w-full">
+        <input id="js-form-input" type="number" placeholder="Please enter your answer." class="border rounded-lg p-4 w-full mb-4">
+        <button id="js-form-button" type="button" class="border rounded-lg bg-blue-300 p-4">Check your answer.</button>
+      </form>
+    </section>
+    
+  </body>
+</html>
